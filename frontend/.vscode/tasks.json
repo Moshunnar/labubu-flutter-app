@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Flutter: Build iOS Simulator",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"ios",
+				"--simulator"
+			],
+			"group": "build",
+			"isBackground": false
+		},
+		{
+			"label": "Flutter: Run on iPhone 16 Pro Simulator",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"--device-id",
+				"EA69B2DD-1BE3-4926-AD9A-C902C85E1B5E"
+			],
+			"group": "build",
+			"isBackground": true
+		},
+		{
+			"label": "Flutter: Build and Run iOS Simulator",
+			"type": "shell",
+			"command": "sh",
+			"args": [
+				"-c",
+				"echo 'Building Flutter app...' && flutter build ios --simulator && flutter run --device-id EA69B2DD-1BE3-4926-AD9A-C902C85E1B5E"
+			],
+			"group": "build",
+			"isBackground": true
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+    "folders": [
+        {
+            "name": "labubu_flutter_app/ios/Runner.xcworkspace",
+            "path": "../.."
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "windows": true,
+            "web": true,
+            "test": true,
+            "reference_complete_app.dart": true,
+            "pubspec.yaml": true,
+            "pubspec.lock": true,
+            "macos": true,
+            "linux": true,
+            "lib": true,
+            "labubu_flutter_app.iml": true,
+            "build": true,
+            "assets": true,
+            "android": true,
+            "analysis_options.yaml": true,
+            "README.md": true,
+            "Labubu HTML Files": true,
+            ".metadata": true,
+            ".idea": true,
+            ".dart_tool": true,
+            ".vscode/xcode/fifo": true,
+            ".vscode/xcode/bundles": true
+        },
+        "search.exclude": {
+            "windows": true,
+            "web": true,
+            "test": true,
+            "reference_complete_app.dart": true,
+            "pubspec.yaml": true,
+            "pubspec.lock": true,
+            "macos": true,
+            "linux": true,
+            "lib": true,
+            "labubu_flutter_app.iml": true,
+            "build": true,
+            "assets": true,
+            "android": true,
+            "analysis_options.yaml": true,
+            "README.md": true,
+            "Labubu HTML Files": true,
+            ".metadata": true,
+            ".idea": true,
+            ".dart_tool": true,
+            ".vscode/xcode/fifo": true,
+            ".vscode/xcode/bundles": true
+        },
+        "swift.autoGenerateLaunchConfigurations": false,
+        "swift.disableAutoResolve": true,
+        "swift.sourcekit-lsp.disable": true,
+        "swift.disableSwiftPackageManagerIntegration": true,
+        "swift.searchSubfoldersForPackages": false
+    },
+    "extensions": {
+        "unwantedRecommendations": [
+            "sswg.swift-lang"
+        ]
+    }
+}
